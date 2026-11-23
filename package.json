@@ -1,0 +1,9 @@
+{
+  "name": "dictionary-of-ui-components",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node internal/build.mjs",
+    "check": "node internal/build.mjs --check"
+  }
+}
